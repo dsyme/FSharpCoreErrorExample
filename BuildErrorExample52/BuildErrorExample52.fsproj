@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
-      <HintPath>..\packages\FSharp.Core.4.5.2\lib\net45\FSharp.Core.dll</HintPath>
+      <HintPath>..\packages\FSharp.Core.4.4.0\lib\net45\FSharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="System" />
@@ -59,9 +59,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExampleAsyncLib62\ExampleAsyncLib62.fsproj">
-      <Name>ExampleAsyncLib62</Name>
-      <Project>{13aa0457-d06b-4ea5-ba53-8a353eb4bf11}</Project>
+    <ProjectReference Include="..\ExampleAsyncLib52\ExampleAsyncLib52.fsproj">
+      <Name>ExampleAsyncLib52</Name>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
